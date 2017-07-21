@@ -73,7 +73,6 @@ int main(int argc,char *argv[])
 
 int getCurl(char code[500] ,char url[], int last)
 {
-
     int retVal; /* return 0 if functions properly */
     char argument[500]; /* holds the argument to be sent to popen */
     FILE *commandOutput; /* used for popen */
@@ -114,5 +113,4 @@ int getCurl(char code[500] ,char url[], int last)
         printf("\n");
     }
     return retVal;
-
 }
