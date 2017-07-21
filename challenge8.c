@@ -66,7 +66,7 @@ int main(int argc,char *argv[])
 
     printf("%s\n", urlValidationResponse);
 
-    /* You have the fucking flag */
+    /* You have the flag */
 
     return retVal;
 }
